@@ -5,17 +5,8 @@ const Hero =() => {
   return (
     <section className="flex justify-center w-full"
     >
-      <div className=""
-          style={{
-                maxHeight: '80vh',
-        }}
-      >
-        <Image src={hero} alt="Brent and Miranda engagement photo"
-          style={{
-            objectFit: 'contain',
-            maxHeight: '100%',
-        }}/>
-      </div>
+        <Image src={hero} alt="Brent and Miranda engagement photo" width={800}
+        />
     </section>
   )
 }

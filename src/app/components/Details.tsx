@@ -1,6 +1,6 @@
 const Details = () => {
     return (
-        <section className="flex py-12 justify-around w-1/2">
+        <section className="flex py-5 justify-around w-1/2">
             <div>
                 <h2 className="lg:text-2xl md:text-xl tracking-widest">
                     November 2, 2024
